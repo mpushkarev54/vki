@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace sumOfNumbersInALine {
+namespace SumOfNumbersInALine {
     class CrazyProgram {
         static void Main() {
 
