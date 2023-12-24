@@ -1,4 +1,6 @@
-﻿namespace BaseToBase {
+﻿using System;
+
+namespace BaseToBase {
     class CrazyProgram {
         static void Main() {
 
