@@ -12,8 +12,8 @@ namespace BinarySearch {
                                        112, 82, 9, 106, 162,
                                        4, 104, 176, 169, 186,
                                        1, 13, 54, 21, 52 };
-
             int q = int.Parse(Console.ReadLine());
+
             Console.WriteLine(BinarySearch(nums, q));
         }
 
@@ -35,6 +35,7 @@ namespace BinarySearch {
                     end = cursor;
                 }
             }
+            
             return -1;
         }
     }

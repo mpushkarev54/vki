@@ -18,6 +18,7 @@ namespace DirectSearch {
                     return start;
                 }
             }
+            
             return -1;
         }
     }
