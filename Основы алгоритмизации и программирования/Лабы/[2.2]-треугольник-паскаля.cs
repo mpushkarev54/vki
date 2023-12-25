@@ -1,4 +1,6 @@
-﻿namespace PascalsTriangle {
+﻿using System;
+
+namespace PascalsTriangle {
     class CrazyProgram {
         static void Main() {
             
@@ -14,6 +16,7 @@
             }
 
             for (int line = 2; line < neededLines; line++) {
+                
                 for (int cursor = 1; cursor < line; cursor++) {
                     triangle[line][cursor] = triangle[line - 1][cursor - 1] + triangle[line - 1][cursor];
                 }
@@ -22,13 +25,6 @@
             for (int cursor = 0; cursor <= neededLine; cursor++) {
                 Console.Write($" {triangle[neededLine][cursor]} ");
             }
-
-            /*for (int line = 0; line < neededLines; line++) {
-                for (int cursor = 0; cursor <= line; cursor++) {
-                    Console.Write($" {triangle[line][cursor]} ");
-                }
-                Console.WriteLine();
-            }*/
         }
     }
 }

@@ -9,13 +9,19 @@ namespace SearchForPrimeNumbers {
             int target = int.Parse(Console.ReadLine());
 
             for (int num = 2; num <= target; num++) {
+
                 int counter = 0;
+
                 for (int d = 2; d < num; d++) {
+
                     if (num % d == 0) {
                         counter++;
                     }
                 }
-                if (counter == 0) primesList.Add(num);
+
+                if (counter == 0) {
+                    primesList.Add(num);
+                }
             }
 
             foreach (int num in primesList) {

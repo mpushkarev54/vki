@@ -21,6 +21,7 @@ namespace BaseToBase {
         }
 
         static string ConvertBaseToBase(string initalNum, int fromBase, int toBase) {
+            
             if (fromBase >= 2 && toBase >= 2) {
                 int convertedToDecimalBase = Convert.ToInt32(initalNum, fromBase);
                 string convertedToNewBase = Convert.ToString(convertedToDecimalBase, toBase);

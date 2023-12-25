@@ -10,8 +10,11 @@ namespace SumOfNumbersInALine {
             string inputString = Console.ReadLine();
 
             for (int i = 0; i < inputString.Length; i++) {
+
                 if (inputString[i] >= '0' && inputString[i] <= '9') {
+
                     string inputDigit = Convert.ToString(inputString[i]);
+                    
                     if (wasDigit) {
                         string lastNumber = numbersList[numbersList.Count - 1];
                         numbersList[numbersList.Count - 1] = lastNumber + inputDigit;

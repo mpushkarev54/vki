@@ -1,4 +1,6 @@
-﻿namespace DirectSearch {
+﻿using System;
+
+namespace DirectSearch {
     class CrazyProgram {
         static void Main() {
             
@@ -9,7 +11,9 @@
         }
 
         static int DirectSearch(string str, string q) {
+
             for (int start = 0; start <= str.Length - q.Length; start++) {
+                
                 if (str.Substring(start, q.Length) == q) {
                     return start;
                 }

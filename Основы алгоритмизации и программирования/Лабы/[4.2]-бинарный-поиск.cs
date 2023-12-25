@@ -1,4 +1,6 @@
-﻿namespace BinarySearch {
+﻿using System;
+
+namespace BinarySearch {
     class CrazyProgram {
         static void Main() {
 
