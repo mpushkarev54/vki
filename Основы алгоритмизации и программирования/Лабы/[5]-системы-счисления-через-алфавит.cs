@@ -46,7 +46,7 @@ namespace BaseToBase {
                     inDigits[symbID] = int.Parse(symb.ToString());
                 } else {
                     int letterID = alphabet.IndexOf(symb.ToString());
-                    inDigits[symbID] = alphabet[letterID];
+                    inDigits[symbID] = letterID + 10;
                 }
             }
 
