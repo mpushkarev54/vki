@@ -22,10 +22,10 @@
                 }
             }
 
-            Console.WriteLine($"[{wordsCounter}] [{ListOfStrToStr(numsInString)}]");
+            Console.WriteLine($"[{wordsCounter}] [{ListToString(numsInString)}]");
         }
 
-        static string ListOfStrToStr(List<string> list) {
+        static string ListToString(List<string> list) {
 
             string result = "";
 
