@@ -16,10 +16,10 @@
     class Car {
 
         public int id;
-        public string manufacturer;
-        public string model;
-        public string number;
-        public string color;
+        public string manufacturer {  get; set; }
+        public string model { get; set; }
+        public string number { get; set; }
+        public string color { get; set; }
 
         public Car() {
             this.id = -1;
