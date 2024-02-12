@@ -16,7 +16,7 @@
     class Car {
 
         public int id;
-        public string manufacturer {  get; set; }
+        public string manufacturer { get; set; }
         public string model { get; set; }
         public string number { get; set; }
         public string color { get; set; }
