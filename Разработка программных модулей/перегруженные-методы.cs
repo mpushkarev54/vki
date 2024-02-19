@@ -16,7 +16,6 @@
             int figureId = int.Parse(Console.ReadLine());
             double area = 0;
 
-
             switch (figureId) {
 
                 case 1:
